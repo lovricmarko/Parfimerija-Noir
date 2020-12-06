@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Parfimerija noir</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Dodatni style samo ta ovu stranicu -->
+    <style type="text/css">
+		body {
+			background-image: url('images/all-bg-title.jpg');
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		#pozad {
+			background-color:#b76e79;
+			margin-left: 500px;
+			margin-top: 100px;
+			margin-right: 500px;
+			padding: 10px;
+		}
+		#pozad2 {
+			background-color: white;
+			padding: 40px;
+		}
+		h2 {
+			text-align: center;
+			font-family: verdana;
+		}
+		p {
+			text-align: center;
+			font-family: verdana;
+		}
+		#prijava {
+			margin-left: 35px;
+		}
+	</style>
+</head>
+<body>
+    <!-- Početak headera -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" height="50" width="200" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">O nama</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop.html">Ženski parfemi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop-m.html">Muški parfemi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop-j.html">Nakit</a></li>
+                        <li class="nav-item"><a class="nav-link" href="shop-w.html">Satovi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="my-account.html">Račun</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cart.html">Korpa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Kraj headera -->
+    <!-- Pocetak Prijave -->
+	<div id="pozad">
+		<div id="pozad2">
+		<h2>Ažuriranje vaše adrese</h2>
+		<p>Upišite vašu adresu za jednostavniju kupovinu</p>
+		<form>
+			<div id="prijava">
+				<input type="text" class="form-control" id="usr">
+			</div>
+		</form>
+		<a class="btn hvr-hover" style="float:right; color: white" href="index.html">Potvrdi</a>
+		</div>
+	</div>
+</body>
+</html>
